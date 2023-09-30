@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Трекер калорий</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Трекер калорий</h1>
+
+    <div class="container">
+        <div class="wrapper-main">
+            <div class="column1">
+                <div id="addProductForm">
+                    <h2>Добавить продукт</h2>
+                    <input type="text" id="productNameInput" placeholder="Название продукта">
+                    <input type="number" id="caloriesInput" placeholder="Калории">
+                    <button id="addProductButton">Добавить</button>
+                </div>
+                <div id="setTargetCalories">
+                    <h2>Установить целевые калории на день</h2>
+                    <input type="number" id="targetCaloriesInput" placeholder="Целевые калории">
+                    <button id="saveTargetCaloriesButton">Сохранить</button>
+                </div>
+            </div>
+            <div id="productsList">
+                <h2>Список продуктов</h2>
+                <input type="text" id="filterInput" placeholder="Фильтр по названию">
+                <button id="sortButton">Сортировать по калориям</button>
+                <ul id="productsUl"></ul>
+            </div>
+        </div>
+        <div id="caloriesCount">
+            <h2>Потребленные калории</h2>
+            <p id="caloriesSum"></p>
+            <p id="targetCalories"></p>
+
+            <p id="caloriesMessage"></p>
+            <button id="clearButton">Очистить все</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

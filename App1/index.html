@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Мем-Генератор</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="column">
+            <h1>Мем-Генератор</h1>
+            <div class="mem-params">
+                <input type="file" id="imageInput">
+                <br>
+                <label for="topText">Текст сверху:</label>
+                <input type="text" id="topText">
+                <br>
+                <label for="bottomText">Текст снизу:</label>
+                <input type="text" id="bottomText">
+                <br>
+                <button id="generateButton">Создать мем</button>
+                <button id="saveButton" style="display: none;" onclick="saveMeme()">Сохранить мем</button>
+                <br>
+            </div>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 7px 15px;
+    font-size: 16px;
+}
+
+#result, #attempts {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#startButton, #checkButton, #startAgainButton {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#checkButton {
+    background-color: aquamarine;
+}
+
+#startButton, #startAgainButton {
+    background-color: tomato;
+}
+
+#range-indicator {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.alert {
+    color: #ff0000;
+}
+
+.victory {
+    color: #27c74e;
+    font-size: 20px;
+}
